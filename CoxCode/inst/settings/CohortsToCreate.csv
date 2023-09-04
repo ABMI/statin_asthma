@@ -1,0 +1,10 @@
+atlasId,atlasName,cohortId,name
+2002,[PCH_0923] Asthma (statin intake),2002,PCH_0923_Asthma_statin_intake
+2003,[PCH_0923] asthma (no statin intake),2003,PCH_0923_asthma_no_statin_intake
+1967,[PCH] Asthma exacerbation,1967,PCH_Asthma_exacerbation
+2580,[PCH] asthma all cause hospitalization,2580,PCH_asthma_all_cause_hospitalization
+2581,[PCH] Severe asthma exacerbation,2581,PCH_Severe_asthma_exacerbation
+2642,[PCH] T2DM outcome,2642,PCH_T2DM_outcome
+2685,[PCH] HTN outcome,2685,PCH_HTN_outcome
+2784,[PCH] DM outcome,2784,PCH_DM_outcome
+2785,[PCH] Hypertensive disorder outcome,2785,PCH_Hypertensive_disorder_outcome

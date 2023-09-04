@@ -1,0 +1,1083 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 317009,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195967001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4279553,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "367542003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Eosinophilic asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "asthma",
+      "id": 15
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 255573,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "13645005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Chronic obstructive lung disease",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "COPD",
+      "id": 24
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 3011708,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "20152-5",
+          "VOCABULARY_ID": "LOINC",
+          "CONCEPT_NAME": "FEV1 measured/predicted",
+          "DOMAIN_ID": "Measurement",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Observation",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": false
+      }]},
+      "name": "FEV1",
+      "id": 26
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42922443,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4649255",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "1 ML Dexamethasone 5 MG/ML Injectable Solution [DEXA-S]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42922453,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4649265",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "1 ML Dexamethasone 5 MG/ML Injectable Solution [YUHAN DEXAMETHASONE DISODIUM PHOSPHATE]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19006963,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "105394",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dexamethasone 5 MG/ML Injectable Solution",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2034603,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4933725",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "hydrocortisone 100 MG Injection [CORTICAP] by Alvogen",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42939631,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4666293",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Hydrocortisone 100 MG Injection [CORTISOLU]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 35604734,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1738590",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "hydrocortisone 250 MG Injection",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2034599,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4933721",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "hydrocortisone 250 MG Injection [CORTICAP] by Alvogen",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2057265,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4958124",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "methylprednisolone 125 MG Injection [METHYSOL] by Alvogen",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2012256,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4958118",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "methylprednisolone 125 MG Injection [Solu-Medrol] by Pfizer",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2057243,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4958103",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "methylprednisolone 500 MG Injection [METHYSOL] by Alvogen",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2012255,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4958097",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "methylprednisolone 500 MG Injection [Solu-Medrol] by Pfizer",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42902110,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1358610",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "methylprednisolone acetate 40 MG/ML Injectable Suspension",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "IV corticosteroid",
+      "id": 27
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2025590,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924176",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "120 ACTUAT fluticasone 0.25 MG/ACTUAT / formoterol 0.01 MG/ACTUAT Inhalation Suspension [Flutiform] by Mundipharma",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026120,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924725",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT fluticasone 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Inhalation Powder [FLUTEROL] by Hanmi",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026115,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924720",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT fluticasone 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Inhalation Powder [SERETIDE DISKUS] by Glaxosmithkline",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026105,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924712",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT fluticasone 0.5 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Inhalation Powder [SERETIDE DISKUS] by Glaxosmithkline",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026111,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924717",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT fluticasone 0.5 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Inhalation Powder [FLUTEROL] by Hanmi",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2025575,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924164",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "120 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol 0.0045 MG/ACTUAT Inhalation Powder [DUORESP SPIROMAX] by Handok",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2025576,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924165",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "120 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol 0.0045 MG/ACTUAT Inhalation Powder [SYMBICORT TURBUHALER] by Astrazeneca",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2025579,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924167",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "120 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol 0.0045 MG/ACTUAT Inhalation Suspension [SYMBICORT RAPIHALER] by Astrazeneca",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026090,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924698",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol 0.0045 MG/ACTUAT Inhalation Powder [SYMBICORT TURBUHALER] by Astrazeneca",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026088,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924696",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT budesonide 0.32 MG/ACTUAT / formoterol 0.009 MG/ACTUAT Inhalation Powder [SYMBICORT TURBUHALER] by Astrazeneca",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42920039,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4646897",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "30 ACTUAT fluticasone 0.2 MG/ACTUAT / vilanterol 0.025 MG/ACTUAT Nasal Spray [Relvar]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "medium-to-high dose ICS-LABA",
+      "id": 28
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19016867,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "153099",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "deflazacort 6 MG Oral Tablet [Calcort]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42948533,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4675122",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Dexamethasone 0.75 MG Oral Tablet [BUKWANG DEXAMETHASONE]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42934728,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4661452",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Methylprednisolone 4 MG Oral Tablet [METHYLON]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42970566,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4696992",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "prednisolone 5 MG Oral Tablet [SOLONDO]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19019893,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "198303",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "triamcinolone 4 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19007062,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "105414",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "triamcinolone 4 MG Oral Tablet [Ledercort]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "SCS-prednisone",
+      "id": 29
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1518258,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "197577",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "dexamethasone 0.5 MG Oral Tablet",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42948544,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4675133",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Dexamethasone 0.5 MG Oral Tablet [YUHAN DEXAMETHASONE]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "SCS-dexa",
+      "id": 30
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42939642,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4666304",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Hydrocortisone 10 MG Oral Tablet [HIROXON]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2034632,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4933752",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "hydrocortisone 10 MG Oral Tablet [ILYANG COTICO] by Ilyang",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2034608,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4933729",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "hydrocortisone 10 MG Oral Tablet by Jaytech",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": false
+        }
+      ]},
+      "name": "SCS-hydrocortisone",
+      "id": 31
+    }
+  ],
+  "EndStrategy": {"DateOffset": {
+    "DateField": "StartDate",
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [{
+    "expression": {
+      "CriteriaList": [{
+        "RestrictVisit": false,
+        "StartWindow": {
+          "UseEventEnd": false,
+          "Start": {
+            "Days": 3,
+            "Coeff": -1
+          },
+          "End": {
+            "Days": 0,
+            "Coeff": 1
+          },
+          "UseIndexEnd": false
+        },
+        "IgnoreObservationPeriod": false,
+        "EndWindow": null,
+        "Criteria": {"ConditionOccurrence": {
+          "OccurrenceEndDate": null,
+          "CorrelatedCriteria": null,
+          "ConditionTypeExclude": false,
+          "CodesetId": 15,
+          "ProviderSpecialty": null,
+          "Gender": null,
+          "VisitType": [
+            {
+              "INVALID_REASON_CAPTION": "Unknown",
+              "CONCEPT_ID": 9203,
+              "STANDARD_CONCEPT": null,
+              "CONCEPT_CODE": "ER",
+              "VOCABULARY_ID": "Visit",
+              "CONCEPT_NAME": "Emergency Room Visit",
+              "DOMAIN_ID": "Visit",
+              "STANDARD_CONCEPT_CAPTION": "Unknown",
+              "CONCEPT_CLASS_ID": null,
+              "INVALID_REASON": null
+            },
+            {
+              "INVALID_REASON_CAPTION": "Unknown",
+              "CONCEPT_ID": 262,
+              "STANDARD_CONCEPT": null,
+              "CONCEPT_CODE": "ERIP",
+              "VOCABULARY_ID": "Visit",
+              "CONCEPT_NAME": "Emergency Room and Inpatient Visit",
+              "DOMAIN_ID": "Visit",
+              "STANDARD_CONCEPT_CAPTION": "Unknown",
+              "CONCEPT_CLASS_ID": null,
+              "INVALID_REASON": null
+            },
+            {
+              "INVALID_REASON_CAPTION": "Unknown",
+              "CONCEPT_ID": 9201,
+              "STANDARD_CONCEPT": null,
+              "CONCEPT_CODE": "IP",
+              "VOCABULARY_ID": "Visit",
+              "CONCEPT_NAME": "Inpatient Visit",
+              "DOMAIN_ID": "Visit",
+              "STANDARD_CONCEPT_CAPTION": "Unknown",
+              "CONCEPT_CLASS_ID": null,
+              "INVALID_REASON": null
+            },
+            {
+              "INVALID_REASON_CAPTION": "Unknown",
+              "CONCEPT_ID": 581382,
+              "STANDARD_CONCEPT": null,
+              "CONCEPT_CODE": "OMOP4822039",
+              "VOCABULARY_ID": "CMS Place of Service",
+              "CONCEPT_NAME": "Inpatient Intensive Care Facility",
+              "DOMAIN_ID": "Visit",
+              "STANDARD_CONCEPT_CAPTION": "Unknown",
+              "CONCEPT_CLASS_ID": null,
+              "INVALID_REASON": null
+            },
+            {
+              "INVALID_REASON_CAPTION": "Unknown",
+              "CONCEPT_ID": 32037,
+              "STANDARD_CONCEPT": null,
+              "CONCEPT_CODE": "OMOP4822460",
+              "VOCABULARY_ID": "Visit",
+              "CONCEPT_NAME": "Intensive Care",
+              "DOMAIN_ID": "Visit",
+              "STANDARD_CONCEPT_CAPTION": "Unknown",
+              "CONCEPT_CLASS_ID": null,
+              "INVALID_REASON": null
+            }
+          ],
+          "First": null,
+          "OccurrenceStartDate": null,
+          "ConditionType": null,
+          "ConditionSourceConcept": null,
+          "ConditionStatus": null,
+          "StopReason": null,
+          "Age": null
+        }},
+        "Occurrence": {
+          "Type": 2,
+          "CountColumn": null,
+          "IsDistinct": false,
+          "Count": 1
+        }
+      }],
+      "Type": "ALL",
+      "DemographicCriteriaList": [],
+      "Groups": [],
+      "Count": null
+    },
+    "name": "asthma hospitalization",
+    "description": null
+  }],
+  "PrimaryCriteria": {
+    "CriteriaList": [
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [{
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 0,
+                "Coeff": 1
+              },
+              "End": {
+                "Days": 2,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"DrugExposure": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": null,
+              "DrugSourceConcept": null,
+              "CodesetId": 29,
+              "DrugTypeExclude": false,
+              "Quantity": {
+                "Op": "gte",
+                "Extent": null,
+                "Value": 3
+              },
+              "DrugType": null,
+              "ProviderSpecialty": null,
+              "EffectiveDrugDose": null,
+              "Gender": null,
+              "DaysSupply": null,
+              "DoseUnit": null,
+              "VisitType": null,
+              "Refills": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "RouteConcept": null,
+              "StopReason": null,
+              "LotNumber": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 3
+            }
+          }],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 29,
+        "DrugTypeExclude": false,
+        "Quantity": {
+          "Op": "gte",
+          "Extent": null,
+          "Value": 3
+        },
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [{
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 0,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 2,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"DrugExposure": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": null,
+              "DrugSourceConcept": null,
+              "CodesetId": 30,
+              "DrugTypeExclude": false,
+              "Quantity": {
+                "Op": "gte",
+                "Extent": null,
+                "Value": 5
+              },
+              "DrugType": null,
+              "ProviderSpecialty": null,
+              "EffectiveDrugDose": null,
+              "Gender": null,
+              "DaysSupply": null,
+              "DoseUnit": null,
+              "VisitType": null,
+              "Refills": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "RouteConcept": null,
+              "StopReason": null,
+              "LotNumber": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 3
+            }
+          }],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 30,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": {
+          "CriteriaList": [{
+            "RestrictVisit": false,
+            "StartWindow": {
+              "UseEventEnd": false,
+              "Start": {
+                "Days": 0,
+                "Coeff": -1
+              },
+              "End": {
+                "Days": 2,
+                "Coeff": 1
+              },
+              "UseIndexEnd": false
+            },
+            "IgnoreObservationPeriod": false,
+            "EndWindow": null,
+            "Criteria": {"DrugExposure": {
+              "OccurrenceEndDate": null,
+              "CorrelatedCriteria": null,
+              "DrugSourceConcept": null,
+              "CodesetId": 31,
+              "DrugTypeExclude": false,
+              "Quantity": {
+                "Op": "gte",
+                "Extent": null,
+                "Value": 6
+              },
+              "DrugType": null,
+              "ProviderSpecialty": null,
+              "EffectiveDrugDose": null,
+              "Gender": null,
+              "DaysSupply": null,
+              "DoseUnit": null,
+              "VisitType": null,
+              "Refills": null,
+              "First": null,
+              "OccurrenceStartDate": null,
+              "RouteConcept": null,
+              "StopReason": null,
+              "LotNumber": null,
+              "Age": null
+            }},
+            "Occurrence": {
+              "Type": 2,
+              "CountColumn": null,
+              "IsDistinct": false,
+              "Count": 3
+            }
+          }],
+          "Type": "ALL",
+          "DemographicCriteriaList": [],
+          "Groups": [],
+          "Count": null
+        },
+        "DrugSourceConcept": null,
+        "CodesetId": 31,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": null,
+        "DrugSourceConcept": null,
+        "CodesetId": 27,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }}
+    ],
+    "PrimaryCriteriaLimit": {"Type": "All"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 0
+    }
+  }
+}

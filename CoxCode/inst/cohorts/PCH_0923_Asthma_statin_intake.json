@@ -1,0 +1,1135 @@
+{
+  "ExpressionLimit": {"Type": "All"},
+  "CollapseSettings": {
+    "CollapseType": "ERA",
+    "EraPad": 0
+  },
+  "CensorWindow": {
+    "StartDate": null,
+    "EndDate": null
+  },
+  "ConceptSets": [
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 317009,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "195967001",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 4279553,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "367542003",
+            "VOCABULARY_ID": "SNOMED",
+            "CONCEPT_NAME": "Eosinophilic asthma",
+            "DOMAIN_ID": "Condition",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Finding",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "asthma",
+      "id": 15
+    },
+    {
+      "expression": {"items": [{
+        "isExcluded": false,
+        "concept": {
+          "INVALID_REASON_CAPTION": "Valid",
+          "CONCEPT_ID": 255573,
+          "STANDARD_CONCEPT": "S",
+          "CONCEPT_CODE": "13645005",
+          "VOCABULARY_ID": "SNOMED",
+          "CONCEPT_NAME": "Chronic obstructive lung disease",
+          "DOMAIN_ID": "Condition",
+          "STANDARD_CONCEPT_CAPTION": "Standard",
+          "CONCEPT_CLASS_ID": "Clinical Finding",
+          "INVALID_REASON": "V"
+        },
+        "includeMapped": false,
+        "includeDescendants": true
+      }]},
+      "name": "COPD",
+      "id": 24
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1545958,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83367",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atorvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1510813,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "301542",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rosuvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1797258,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "2540",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "cilastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1539403,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36567",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "simvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1551860,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42463",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pravastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 922570,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "7597",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "nystatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009071,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700497",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "ulinastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1549686,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41127",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1592085,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6472",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lovastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19136066,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "9939",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "somatostatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[LUS] Statin",
+      "id": 33
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1539403,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "36567",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "simvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1510813,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "301542",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "rosuvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1551860,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "42463",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pravastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40165636,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "861634",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "pitavastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1592085,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "6472",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "lovastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1549686,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "41127",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1545958,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "83367",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "atorvastatin",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[seol] Statin",
+      "id": 34
+    },
+    {
+      "expression": {"items": [
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42919197,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4646068",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "120 ACTUAT fluticasone 0.05 MG/ACTUAT Inhalant Solution [FLIXOTIDE JUNIOR EVOHALER]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2025601,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924187",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "120 ACTUAT fluticasone 0.05 MG/ACTUAT Inhalation Suspension [FLIXOTIDE JUNIOR EVOHALER] by Glaxosmithkline",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42919203,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4646074",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "120 ACTUAT fluticasone 0.113 MG/ACTUAT / formoterol 0.005 MG/ACTUAT Nasal Spray [Flutiform]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2025590,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924176",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "120 ACTUAT fluticasone 0.25 MG/ACTUAT / formoterol 0.01 MG/ACTUAT Inhalation Suspension [Flutiform] by Mundipharma",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42920037,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4646895",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "30 ACTUAT fluticasone 0.1 MG/ACTUAT / vilanterol 0.025 MG/ACTUAT Nasal Spray [Relvar]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42920029,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4646887",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "30 ACTUAT fluticasone 0.1 MG/ACTUAT Metered Dose Inhaler [Arnuity]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42920039,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4646897",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "30 ACTUAT fluticasone 0.2 MG/ACTUAT / vilanterol 0.025 MG/ACTUAT Nasal Spray [Relvar]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026124,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924728",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT fluticasone 0.1 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Inhalation Powder [SERETIDE DISKUS] by Glaxosmithkline",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026120,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924725",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT fluticasone 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Inhalation Powder [FLUTEROL] by Hanmi",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026115,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924720",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT fluticasone 0.25 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Inhalation Powder [SERETIDE DISKUS] by Glaxosmithkline",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40713558,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4744079",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT fluticasone 0.25 MG/ACTUAT Inhalant Powder [FLIXOTIDE DISKUS] by Glaxosmithkline",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026111,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924717",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT fluticasone 0.5 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Inhalation Powder [FLUTEROL] by Hanmi",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026105,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924712",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT fluticasone 0.5 MG/ACTUAT / salmeterol 0.05 MG/ACTUAT Inhalation Powder [SERETIDE DISKUS] by Glaxosmithkline",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 36250141,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1797907",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluticasone propionate 0.05 MG/ACTUAT Metered Dose Nasal Spray",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42902447,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "1359560",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "fluticasone propionate 0.1 MG/ACTUAT Dry Powder Inhaler",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42919252,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4646121",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "100 ACTUAT Budesonide 0.2 MG/ACTUAT Dry Powder Inhaler [Pulmicort Turbuhaler]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2025575,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924164",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "120 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol 0.0045 MG/ACTUAT Inhalation Powder [DUORESP SPIROMAX] by Handok",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2025576,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924165",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "120 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol 0.0045 MG/ACTUAT Inhalation Powder [SYMBICORT TURBUHALER] by Astrazeneca",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2025579,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924167",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "120 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol 0.0045 MG/ACTUAT Inhalation Suspension [SYMBICORT RAPIHALER] by Astrazeneca",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026939,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4925597",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "16 ML budesonide 0.64 MG/ML Nasal Spray [YUHAN PULMICORT] by Yuhan",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42922105,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4648922",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "2 ML Budesonide 0.25 MG/ML Inhalant Solution [Budecort]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 40710451,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4746703",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "200 ACTUAT Budesonide 0.1 MG/ACTUAT Inhalant Powder [Pulmicort Turbohaler] by Astrazeneca",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026092,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924700",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT budesonide 0.08 MG/ACTUAT / formoterol 0.0045 MG/ACTUAT Inhalation Powder [SYMBICORT TURBUHALER] by Astrazeneca",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026090,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924698",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT budesonide 0.16 MG/ACTUAT / formoterol 0.0045 MG/ACTUAT Inhalation Powder [SYMBICORT TURBUHALER] by Astrazeneca",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 2026088,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4924696",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "60 ACTUAT budesonide 0.32 MG/ACTUAT / formoterol 0.009 MG/ACTUAT Inhalation Powder [SYMBICORT TURBUHALER] by Astrazeneca",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 939300,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "247551",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "budesonide 0.032 MG/ACTUAT Nasal Spray",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 21133634,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP412337",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "Budesonide 0.2 MG/ACTUAT Inhalant Solution [Pulmicort] by Astrazeneca",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Marketed Product",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 19098138,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "351109",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "budesonide 0.25 MG/ML Inhalation Suspension",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Clinical Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1147878,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "40575",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "zileuton",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1111706,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "114970",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "zafirlukast",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 43009065,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4700491",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "pranlukast hydrate",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 1154161,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "88249",
+            "VOCABULARY_ID": "RxNorm",
+            "CONCEPT_NAME": "montelukast",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Ingredient",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        },
+        {
+          "isExcluded": false,
+          "concept": {
+            "INVALID_REASON_CAPTION": "Valid",
+            "CONCEPT_ID": 42921728,
+            "STANDARD_CONCEPT": "S",
+            "CONCEPT_CODE": "OMOP4648551",
+            "VOCABULARY_ID": "RxNorm Extension",
+            "CONCEPT_NAME": "2.5 ML Albuterol 1 MG/ML Inhalant Solution [VENTOLIN NEBUL]",
+            "DOMAIN_ID": "Drug",
+            "STANDARD_CONCEPT_CAPTION": "Standard",
+            "CONCEPT_CLASS_ID": "Quant Branded Drug",
+            "INVALID_REASON": "V"
+          },
+          "includeMapped": false,
+          "includeDescendants": true
+        }
+      ]},
+      "name": "[PCH] asthma treatment (ICS + ICS&LABA + LTRA + ventolin)",
+      "id": 35
+    }
+  ],
+  "EndStrategy": {"CustomEra": {
+    "DrugCodesetId": 34,
+    "DaysSupplyOverride": null,
+    "GapDays": 90,
+    "Offset": 0
+  }},
+  "cdmVersionRange": ">=5.0.0",
+  "CensoringCriteria": [],
+  "AdditionalCriteria": {
+    "CriteriaList": [{
+      "RestrictVisit": false,
+      "StartWindow": {
+        "UseEventEnd": false,
+        "Start": {
+          "Days": 0,
+          "Coeff": 1
+        },
+        "End": {
+          "Days": 60,
+          "Coeff": 1
+        },
+        "UseIndexEnd": false
+      },
+      "IgnoreObservationPeriod": false,
+      "EndWindow": null,
+      "Criteria": {"DrugExposure": {
+        "OccurrenceEndDate": null,
+        "CorrelatedCriteria": null,
+        "DrugSourceConcept": null,
+        "CodesetId": 35,
+        "DrugTypeExclude": false,
+        "Quantity": null,
+        "DrugType": null,
+        "ProviderSpecialty": null,
+        "EffectiveDrugDose": null,
+        "Gender": null,
+        "DaysSupply": null,
+        "DoseUnit": null,
+        "VisitType": null,
+        "Refills": null,
+        "First": null,
+        "OccurrenceStartDate": null,
+        "RouteConcept": null,
+        "StopReason": null,
+        "LotNumber": null,
+        "Age": null
+      }},
+      "Occurrence": {
+        "Type": 2,
+        "CountColumn": null,
+        "IsDistinct": false,
+        "Count": 1
+      }
+    }],
+    "Type": "ALL",
+    "DemographicCriteriaList": [],
+    "Groups": [],
+    "Count": null
+  },
+  "QualifiedLimit": {"Type": "First"},
+  "InclusionRules": [
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": 1,
+              "Coeff": -1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"DrugExposure": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "DrugSourceConcept": null,
+            "CodesetId": 34,
+            "DrugTypeExclude": false,
+            "Quantity": null,
+            "DrugType": null,
+            "ProviderSpecialty": null,
+            "EffectiveDrugDose": null,
+            "Gender": null,
+            "DaysSupply": null,
+            "DoseUnit": null,
+            "VisitType": null,
+            "Refills": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "RouteConcept": null,
+            "StopReason": null,
+            "LotNumber": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 2,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 1
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "statin intake before asthma diagnosis",
+      "description": null
+    },
+    {
+      "expression": {
+        "CriteriaList": [{
+          "RestrictVisit": false,
+          "StartWindow": {
+            "UseEventEnd": false,
+            "Start": {
+              "Days": null,
+              "Coeff": -1
+            },
+            "End": {
+              "Days": null,
+              "Coeff": 1
+            },
+            "UseIndexEnd": false
+          },
+          "IgnoreObservationPeriod": false,
+          "EndWindow": null,
+          "Criteria": {"ConditionOccurrence": {
+            "OccurrenceEndDate": null,
+            "CorrelatedCriteria": null,
+            "ConditionTypeExclude": false,
+            "CodesetId": 24,
+            "ProviderSpecialty": null,
+            "Gender": null,
+            "VisitType": null,
+            "First": null,
+            "OccurrenceStartDate": null,
+            "ConditionType": null,
+            "ConditionSourceConcept": null,
+            "ConditionStatus": null,
+            "StopReason": null,
+            "Age": null
+          }},
+          "Occurrence": {
+            "Type": 1,
+            "CountColumn": null,
+            "IsDistinct": false,
+            "Count": 0
+          }
+        }],
+        "Type": "ALL",
+        "DemographicCriteriaList": [],
+        "Groups": [],
+        "Count": null
+      },
+      "name": "No COPD",
+      "description": null
+    }
+  ],
+  "PrimaryCriteria": {
+    "CriteriaList": [{"ConditionOccurrence": {
+      "OccurrenceEndDate": null,
+      "CorrelatedCriteria": null,
+      "ConditionTypeExclude": false,
+      "CodesetId": 15,
+      "ProviderSpecialty": null,
+      "Gender": null,
+      "VisitType": null,
+      "First": null,
+      "OccurrenceStartDate": null,
+      "ConditionType": null,
+      "ConditionSourceConcept": null,
+      "ConditionStatus": null,
+      "StopReason": null,
+      "Age": {
+        "Op": "bt",
+        "Extent": 80,
+        "Value": 40
+      }
+    }}],
+    "PrimaryCriteriaLimit": {"Type": "First"},
+    "ObservationWindow": {
+      "PostDays": 0,
+      "PriorDays": 365
+    }
+  }
+}
